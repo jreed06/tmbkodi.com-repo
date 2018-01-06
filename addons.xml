@@ -91,7 +91,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="repository.tmb" name="[B]Trademark Repository[/B]" version="1.5" provider-name="Trademark">
+<addon id="repository.tmb" name="[B]Trademark Repository[/B]" version="1.6" provider-name="Trademark">
 <extension point="xbmc.addon.repository" name="Trademark repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/trademark13/tmbkodi.com-repo/master/addons.xml</info>
@@ -118,6 +118,11 @@
 			<checksum>https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.q/master/zips/</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/illuminatitemple/repository.illuminati/master/zips/</datadir>
+        </dir>		
 </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Trademark Repository</summary>
