@@ -25,7 +25,7 @@
   </assets>
   </extension>
 </addon>
-<addon id="plugin.video.oculus" name="Oculus" version="1.21" provider-name="Trademark">
+<addon id="plugin.video.oculus" name="Oculus" version="1.22" provider-name="Trademark">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
