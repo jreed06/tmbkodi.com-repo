@@ -25,7 +25,7 @@
   </assets>
   </extension>
 </addon>
-<addon id="plugin.video.oculus" name="Oculus" version="1.22" provider-name="Trademark">
+<addon id="plugin.video.oculus" name="Oculus" version="1.23" provider-name="Trademark">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -35,7 +35,7 @@
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
+        <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -53,7 +53,7 @@
         <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
 </addon>
-<addon id="plugin.video.thekingdom" name="TheKingdom" version="7.5.1" provider-name="MrGhost">
+<addon id="plugin.video.thekingdom" name="TheKingdom" version="7.5.2" provider-name="MrGhost">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -63,7 +63,7 @@
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
+        <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -89,7 +89,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="repository.tmb" name="[B]Trademark Repository[/B]" version="1.7" provider-name="Trademark">
+<addon id="repository.tmb" name="[B]Trademark Repository[/B]" version="1.8" provider-name="Trademark">
 <extension point="xbmc.addon.repository" name="Trademark repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/trademark13/tmbkodi.com-repo/master/addons.xml</info>
@@ -102,10 +102,10 @@
 			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
 		</dir>
 		<dir>
-			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-	    </dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
